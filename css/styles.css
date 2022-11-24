@@ -1,3 +1,13 @@
-body{
-    background-color: aqua;
+
+
+
+.site-nav {
+    color: #212121;
+}
+
+.herou {
+    background: #2F303A;
+}
+.herou-text{
+    color: #FFFFFF;
 }
