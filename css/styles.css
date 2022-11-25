@@ -1,13 +1,68 @@
-
-
-
-.site-nav {
-    color: #212121;
+:root{
+--primary-text-color:#000000;
+--title-text-color:#757575;
+--accent-color:#2196F3;
+--heading-color:#2F303A;
+--hero-color: #FFFFFF;
+--featurs-title-color:#212121;
 }
 
-.herou {
-    background: #2F303A;
+.logo-link{
+    color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--primary-text-color) ; 
+}
+ .list{
+    list-style: none;
+ }
+.heder-nav {
+    color: var(--title-text-color);
+}
+.heder-nav:hover {
+    color: var(--accent-color);
+}
+.heder-nav:focus {
+    color:var(--accent-color);
+}
+
+.contacts-info{
+    color:var(--title-text-color);
+}
+.contacts-info:hover, 
+.contacts-info:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background: var(--heading-color);
 }
 .herou-text{
-    color: #FFFFFF;
+    color:var(--hero-color)
+}
+.button {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+
+
+}
+
+.featurs-title{
+    color:var(--featurs-title-color);
+}
+.featurs-text{
+    color: var(--title-text-color);
+}
+
+.heading {
+    color: var(--featurs-title-color);
+}
+.caption{
+    color:var(--featurs-title-color);
+}
+.name{
+    color: var(--featurs-title-color);
+}
+.position {
+    color: var(--title-text-color);
 }
