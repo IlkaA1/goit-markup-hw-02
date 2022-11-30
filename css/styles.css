@@ -42,22 +42,22 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .heder-nav:hover,
 .heder-nav:focus {
   color: var(--accent-color);
 }
 
-.heder-nav.current {
+.current {
   color: var(--accent-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .contacts-info {
   color: var(--title-text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .contacts-info:hover,
 .contacts-info:focus {
@@ -84,6 +84,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -92,19 +93,16 @@
 }
 
 .featurs {
-  background-color: var(--featurs-bacgraund-color);
 }
 
 .featurs-title {
   color: var(--featurs-title-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
 }
 .featurs-text {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -119,7 +117,6 @@
 
 .heading {
   color: var(--featurs-title-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -133,6 +130,8 @@
 }
 .position {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .footer {
@@ -146,6 +145,13 @@
 }
 .contacts-info.footer {
   color: var(--foter-adres-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+.contacts-info.footer:hover,
+.contacts-info.footer:focus {
+  color: var(--accent-color);
 }
 
 /* Css for portfolio */
@@ -166,4 +172,16 @@
 .button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--body-background-color);
+}
+
+.portfolio {
+  color: var(--featurs-title-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-examples {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
