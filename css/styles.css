@@ -8,6 +8,7 @@
   --body-background-color: #ffffff;
   --heading-background-color: #f5f4fa;
   --featurs-bacgraund-color: #f5f5f5;
+  --button-focus-color: #188ce8;
 }
 
 .body {
@@ -58,6 +59,7 @@
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 500;
 }
 .contacts-info:hover,
 .contacts-info:focus {
@@ -88,8 +90,8 @@
 }
 
 .button:hover,
-:focus {
-  background-color: var(--accent-color);
+.button:focus {
+  background-color: var(--button-focus-color);
 }
 
 .featurs {
@@ -142,12 +144,17 @@
 }
 .adres {
   color: var(--body-background-color);
+  font-style: normal;
+  width: 231px;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .contacts-info.footer {
   color: var(--foter-adres-color);
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  width: 122px;
 }
 .contacts-info.footer:hover,
 .contacts-info.footer:focus {
